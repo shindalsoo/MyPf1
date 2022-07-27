@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/lightgallery.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">    
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="header">
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav id="nav">
+    <div class="container">
+        <div class="row">
+            <div class="nav">
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<article id="title">
+    <div class="container">
+        <div class="title">
+            <h2>"나는 멋진 신달수입니다"</h2>
+        </div>
+    </div>
+</article>  
+
+<main>
+    <section id="contents">
+        <div class="container">
+            <section id="cont_left">
+                <h3 class="ir_su">반응형 사이트 왼쪽 컨텐츠</h3>
+                <article class="column col1"><h4>반응형 사이트 왼쪽 컨텐츠1</h4></article>
+            </section>
+            <section id="cont_center">
+                <h3 class="ir_su">반응형 사이트 가운데 컨텐츠</h3>
+                <article class="column col4"><h4>반응형 사이트 가운데 컨텐츠1</h4></article>
+                <!-- 11강 시작 -->
+                <article class="column col5">
+                    <h4>필터이펙트할께요</h4>
+                    <p class="col_desc">헉, 어떤 일들이 벌어질까요?</p>
+                    <div class="lightbox square clearfix">
+                        <a href="../img/light01_s.jpg"><img src="../img/light01.jpg" alt="이미지"><em>blur</em></a>
+                        <a href="../img/light02_s.jpg"><img src="../img/light02.jpg" alt="이미지"><em>brightness</em></a>
+                        <a href="../img/light03_s.jpg"><img src="../img/light03.jpg" alt="이미지"><em>contrast</em></a>
+                        <a href="../img/light04_s.jpg"><img src="../img/light04.jpg" alt="이미지"><em>grayscale</em></a>
+                        <a href="../img/light05_s.jpg"><img src="../img/light05.jpg" alt="이미지"><em>hue-rotate</em></a>
+                        <a href="../img/light06_s.jpg"><img src="../img/light06.jpg" alt="이미지"><em>invert</em></a>
+                        <a href="../img/light07_s.jpg"><img src="../img/light07.jpg" alt="이미지"><em>opacity</em></a>
+                        <a href="../img/light08_s.jpg"><img src="../img/light08.jpg" alt="이미지"><em>sturate</em></a>
+                        <a href="../img/light09_s.jpg"><img src="../img/light09.jpg" alt="이미지"><em>sepia</em></a>
+                        <a href="../img/light10_s.jpg"><img src="../img/light10.jpg" alt="이미지"><em>sepid hue-rotate</em></a>
+                    </div>
+                </article>
+                <!-- 11강 끝 -->
+            </section>
+            <section id="cont_right">
+                <h3 class="ir_su">반응형 사이트 오른쪽 컨텐츠</h3>
+                <article class="column col7"><h4>반응형 사이트 오른쪽 컨텐츠1</h4></article>
+            </section>
+        </div>
+    </section>        
+</main>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer">
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/jquery.min_1.12.4.js"></script>
+<script src="../js/lightgallery.min.js"></script>
+<script>
+$(".lightbox").lightGallery({
+    autoplay: true,
+    pause: 3000,
+    progressBar: true
+});
+</script>
+
+</body>
+</body>
+</html>
